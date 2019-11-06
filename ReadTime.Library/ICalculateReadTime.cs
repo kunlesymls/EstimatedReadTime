@@ -7,14 +7,21 @@
         /// </summary>
         /// <param name="words">string</param>
         /// <returns>double</returns>
-        double Calculate(string words);
+        string GetEstimatedTime(string words);
 
         /// <summary>
         /// This method calculate the words and return the estimated time to read
         /// </summary>
         /// <param name="words">string[]</param>
         /// <returns>double</returns>
-        double Calculate(string[] words);
+        string GetEstimatedTime(string[] words);
+
+        /// <summary>
+        /// This method reads file content and calculate the average time to read
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <returns></returns>
+        string GetEstimatedTimeFromFile(string filePath);
 
         /// <summary>
         /// This method returns the number of words in a string 
@@ -22,6 +29,13 @@
         /// <param name="words"></param>
         /// <returns></returns>
         int GetWordCount(string words);
+
+        /// <summary>
+        /// This method returns the number of words in a file
+        /// </summary>
+        /// <param name="words"></param>
+        /// <returns>int</returns>
+        int GetWordCountFromFile(string filePath);
 
 
         /// <summary>
