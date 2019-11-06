@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTimeApp", "ReadTimeApp\ReadTimeApp.csproj", "{43BE75B5-67E1-4121-9BDB-014773702499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadTime.Library", "ReadTime.Library\ReadTime.Library.csproj", "{C53F53EB-CC64-4A0A-B1B2-D904AAD496F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43BE75B5-67E1-4121-9BDB-014773702499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BE75B5-67E1-4121-9BDB-014773702499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BE75B5-67E1-4121-9BDB-014773702499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BE75B5-67E1-4121-9BDB-014773702499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53F53EB-CC64-4A0A-B1B2-D904AAD496F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53F53EB-CC64-4A0A-B1B2-D904AAD496F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53F53EB-CC64-4A0A-B1B2-D904AAD496F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53F53EB-CC64-4A0A-B1B2-D904AAD496F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28D65295-E41D-4238-A9E0-C673350AB03E}
+	EndGlobalSection
+EndGlobal
